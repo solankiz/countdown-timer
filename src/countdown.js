@@ -41,7 +41,7 @@ class CountDown extends Component {
     return (
       <div>
 
-        <h1>Countdown Clock : {this.state.msg}</h1>
+        <h1 className="Alert">Countdown Clock : {this.state.msg}</h1>
         <div id="clockdiv">
           <div>
             <span className="days" id="day">{days}</span>
